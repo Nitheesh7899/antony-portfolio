@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.exp_image {
+  display: flex;
+  height: 40rem;
+  width: 45rem;
+  margin-left: 0rem;
+  border-radius: 1rem;
+}
+.about_me {
+  margin-left: 15rem;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.secondimg {
+  display: flex;
+}
+
+.section_three {
+  margin-top: 25rem;
+  margin-left: -19rem;
+}
+.expstyle {
+  height: 2rem;
+  margin-left: 3rem;
+  flex-direction: column;
+}
+.edustyle {
+  display: flex;
+  height: 2rem;
+  margin-left: 30rem;
+  margin-top: -10rem;
+  flex-direction: column;
+}
+.exptext {
+  padding: 0rem;
+  border-radius: 1rem;
+  padding-top: 1rem;
+}
+.edutext {
+  margin-left: 27rem;
+  margin-top: 1.5rem;
+  white-space: nowrap;
+}
+.para {
+  display: flex;
+  flex-direction: row;
+  margin-left: -40rem;
+  margin-top: 40rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.third_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+}
+.logo {
+  height: 2rem;
+  display: flex;
+  margin-top: 1rem;
+}
+.list_content {
+  margin-top: 5rem;
+  margin-left: 23rem;
+}
+
+.firstexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 22rem;
+  gap: 1rem;
+}
+.secondexp {
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 22rem;
+  gap: 1rem;
+}
+.thirdexp {
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 22rem;
+  gap: 1rem;
+}
+.fourthexp {
+  margin-top: 2rem;
+  display: flex;
+  margin-left: 22rem;
+  gap: 1rem;
+}
+.fat {
+  display: flex;
+  margin-left: 60rem;
+  margin-top: -26rem;
+  gap: 1rem;
+}
+
+.next_oneexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+.next_twoexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+.next_threeexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+.next_fourexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+.next_fiveexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+.next_sixexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+.next_sevenexp {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 65rem;
+  gap: 1rem;
+}
+p {
+  color: rgb(239, 82, 4);
+}
+.para p {
+  color: gray;
+}
+@media screen and (max-width: 1200px) {
+  .edustyle {
+    margin-left: 23rem;
+  }
+  .edutext {
+    margin-left: 20rem;
+  }
+  .fat {
+    white-space: nowrap;
+    margin-left: 46rem;
+  }
+  .next_oneexp {
+    margin-left: 55rem;
+  }
+  .next_twoexp {
+    margin-left: 55rem;
+    white-space: nowrap;
+  }
+  .next_threeexp {
+    margin-left: 55rem;
+    white-space: nowrap;
+  }
+  .next_fourexp {
+    margin-left: 55rem;
+  }
+  .next_fiveexp {
+    margin-left: 55rem;
+  }
+  .next_sixexp {
+    margin-left: 55rem;
+  }
+  .next_sevenexp {
+    margin-left: 55rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .third_page {
+    margin-left: 35rem;
+  }
+  .fat {
+    margin-left: 50rem;
+  }
+  .next_oneexp {
+    margin-top: 1rem;
+    margin-left: 55rem;
+  }
+  .list {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+  .next_oneexp {
+    margin-top: -15rem;
+  }
+  .list {
+    align-items: center;
+  }
+
+  .list {
+    margin-top: 0rem;
+  }
+  .next_oneexp {
+    margin-top: 3rem;
+  }
+  .ulone {
+    margin-left: -10rem;
+  }
+}
